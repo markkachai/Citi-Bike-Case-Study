@@ -100,6 +100,34 @@ reg1 <- lm(Demand ~ DemandTime + StartStationName + EndStationName + DayOfWeek +
 
 summary(reg1)
 ```
+---
+Here's an explanation of why each predictor/variable was chosen:
+
+DemandTime:
+
+The time of day (e.g., morning, evening) can significantly impact bike sharing demand, as we’ve seen there is a higher average demand in the evenings across days of the week.
+
+StartStationName and EndStationName:
+
+The starting and ending stations are fundamental variables as they directly relate to the origin and destination of bike trips. Different stations may have varying levels of demand based on factors such as location, nearby attractions, population density, and transportation options.
+
+DayOfWeek:
+
+The day of the week affects commuting patterns, leisure activities, and overall demand. For example, weekdays typically exhibit higher demand during peak commuting hours, while weekends may see more leisure-oriented trips.
+
+Month:
+
+Seasonal variations can have a significant impact on bike-sharing demand. Weather conditions, holidays, and cultural events may influence the number of people using bike-sharing services. For instance, demand may increase during warmer months or decrease during holiday periods.
+
+By including these variables in our model, we can capture a comprehensive set of factors influencing bike-sharing demand. This allows the model to account for variations in demand based on our chosen predictors, leading to more accurate predictions.
+
+The multiple R^2 represents the proportion of variance explained by all the predictors together. In our model, the multiple R^2 is 0.8956, indicating that we can explain approximately 89.56% of the variance in our data with this model.
+
+The p-value for F-statistics is 2.2*10^-16, which is < 0.05, indicating that the regression model is highly significant, and the predictors collectively have a significant effect on predicting bike demand.  With this p-value, we know at least one of the coefficients is non-zero, and the model is valid.
+
+Additionally, considering these variables enables you to analyze and understand the underlying factors driving bike-sharing demand, which is essential for optimizing resource allocation and planning.
+
+---
 
 - Example of predictions made for one of our five chosen stations on a particular day in the future (May 1, 2019)
 ```R
@@ -143,12 +171,14 @@ Using this optimization model allowed us to find:
 ### Results/Findings
 ---
 The analysis results are summarized as follows:
-1. R
-2. R
+1. On average, evenings have a higher demand than mornings.
+2. On average, demand slightly decreases during the weekend for both times of day.
+3. Our multiple linear regression model explains 89.56% of the variance in our data.
+4. Given our five stations, the best initial allocation of bikes is 3,427 bikes.
 
 ### Proposed Solution and Business Model
 ---
-Based on the analysis, we know evenings have the highest demand of 
+Based on the analysis, we recommend the following actions:
 - 
 
 ### Limitations
