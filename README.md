@@ -17,7 +17,7 @@
 
 ### Project Overview
 ---
-The objective of this final group project was to develop a tool to find the number of bikes to stock in a selection of stations at the beginning of the day to maximize the number of daily bike trips.
+The objective of this final group project was to develop a tool to find the number of bikes to stock in a selection of stations at the beginning of the day to maximize the number of daily bike trips. Applying the 4-step analytics process to solve this problem, our group constructed a data-driven narrative prepared in a pitch presentation for the Citi Bike executives. In RStudio, descriptive analyses helped to identify demand patterns, and predictive analyses were done through the use of a multiple linear regression model created to forecast daytime and evening demand for five stations. An optimization model created in Excel was used to find the optimal initial allocation of bikes as well as the number of trips.
 
 ### Data Sources
 ---
