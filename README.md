@@ -137,7 +137,7 @@ Additionally, considering these variables enables you to analyze and understand 
 
 ---
 
-This multiple linear regression model allows us to predict demand for certain stations
+This multiple linear regression model allows us to predict daytime and evening demand on a particular day in the future for our chosen stations:
 
 - Example of predictions made for one of our five chosen stations on a particular day in the future (May 1, 2019)
 ```R
