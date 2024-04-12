@@ -86,6 +86,8 @@ avg_demand_time_day <- ggplot(citibike, aes(x = DayOfWeek , y = Demand, fill = D
 
 print(avg_demand_time_day)
 ```
+![Rplot](https://github.com/markkachai/Citi-Bike-Case-Study/assets/122057279/7b9df5c5-d3b7-46af-98d3-f28141f69146)
+
 
 ### Results/Findings
 
