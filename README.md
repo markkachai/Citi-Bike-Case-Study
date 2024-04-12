@@ -6,6 +6,14 @@
 - [Data Sources](#data-sources)
 - [Tools](#tools)
 - [Data Cleaning](#data-cleaning)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Data Analysis](#data-analysis)
+- [Predictive Analysis](#predictive-analysis)
+- [Prescriptive Analysis and Optimization Model](#prescriptive-analysis-and-optimization-model)
+- [Results/Findings](#results/findings)
+- [Proposed Solution and Business Model](#proposed-solution-and-business-model)
+- [Limitations](#limitations)
+- [References](#references)
 
 ### Project Overview
 ---
@@ -158,7 +166,7 @@ predict(reg1, data.frame(DemandTime = "evening", StartStationName = "Pershing Sq
 predict(reg1, data.frame(DemandTime = "evening", StartStationName = "Pershing Square North", EndStationName = "W 41 St & 8 Ave", DayOfWeek = "Wednesday", Month = "5"))
 ```
 
-### Optimization Model
+### Prescriptive Analysis and Optimization Model
 ---
 The predictions for demand between our five chosen stations were then input into the parameters of our optimization model. Due to the high daytime/evening demand of our selected stations, we had to change the number of bikes from 1,000 to 4,000 to satisfy demand.
 
