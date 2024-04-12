@@ -15,7 +15,7 @@ The objective of this final group project was to develop a tool to find the numb
 ---
 Citi Bike Demand Data: The primary dataset used for this analysis is the "citibikeDemand.csv" file, which contains a random sample of trips taken from June 1, 2017, to May 31, 2018 (31,452 out of 15.7 million rides). The information has been supplemented with demographic, economic, and weather information pulled from a variety of sources. 
 
-[Citi Bike Data Description](
+[Citi Bike Data Description](https://github.com/markkachai/Citi-Bike-Case-Study/blob/77f82f7f3303236dab7e363c86df7467ab18d046/CitiBike%20Data%20Description.docx)
 
 ### Tools
 ---
