@@ -1,4 +1,4 @@
-# Citi-Bike-Case-Study
+# Citi Bike Case Study
 
 ## Table of Contents
 
@@ -8,17 +8,17 @@
 - [Data Cleaning](#data-cleaning)
 
 ### Project Overview
-
+---
 The objective of this final group project was to develop a tool to find the number of bikes to stock in a selection of stations at the beginning of the day to maximize the number of daily bike trips.
 
 ### Data Sources
-
+---
 Citi Bike Demand Data: The primary dataset used for this analysis is the "citibikeDemand.csv" file, which contains a random sample of trips taken from June 1, 2017, to May 31, 2018 (31,452 out of 15.7 million rides). The information has been supplemented with demographic, economic, and weather information pulled from a variety of sources. 
 
-Citi Bike Data Description
+[Citi Bike Data Description](
 
 ### Tools
-
+---
 - Excel - Data Cleaning
   - [Download here](https://microsoft.com)
 - RStudio - Data Analysis (EDA, Descriptive Analysis, Predictive Analysis)
@@ -88,6 +88,7 @@ print(avg_demand_time_day)
 ```
 ![Rplot](https://github.com/markkachai/Citi-Bike-Case-Study/assets/122057279/7b9df5c5-d3b7-46af-98d3-f28141f69146)
 
+---
 
 ### Results/Findings
 
