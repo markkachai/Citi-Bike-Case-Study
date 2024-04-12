@@ -109,7 +109,7 @@ reg1 <- lm(Demand ~ DemandTime + StartStationName + EndStationName + DayOfWeek +
 summary(reg1)
 ```
 ---
-Along with their statistical significance, here's an explanation of why each predictor/variable was chosen:
+Here's an explanation of why each predictor/variable was chosen:
 
 DemandTime:
 
@@ -136,6 +136,8 @@ The p-value for F-statistics is 2.2*10^-16, which is < 0.05, indicating that the
 Additionally, considering these variables enables you to analyze and understand the underlying factors driving bike-sharing demand, which is essential for optimizing resource allocation and planning.
 
 ---
+
+This multiple linear regression model allows us to predict demand for certain stations
 
 - Example of predictions made for one of our five chosen stations on a particular day in the future (May 1, 2019)
 ```R
