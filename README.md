@@ -10,7 +10,7 @@
 - [Data Analysis](#data-analysis)
 - [Predictive Analysis](#predictive-analysis)
 - [Prescriptive Analysis and Optimization Model](#prescriptive-analysis-and-optimization-model)
-- [Results/Findings](#results-/-findings)
+- [Results and Findings](#results-and-findings)
 - [Proposed Solution and Business Model](#proposed-solution-and-business-model)
 - [Limitations](#limitations)
 - [References](#references)
@@ -177,7 +177,7 @@ Using this optimization model allowed us to find:
 - How many trips between stations every day?
   - Given our parameters, the demand forecast showed the number of trips to be 6,244.
 
-### Results/Findings
+### Results and Findings
 ---
 The analysis results are summarized as follows:
 1. On average, evenings have a higher demand than mornings.
