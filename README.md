@@ -10,7 +10,7 @@
 - [Data Analysis](#data-analysis)
 - [Predictive Analysis](#predictive-analysis)
 - [Prescriptive Analysis and Optimization Model](#prescriptive-analysis-and-optimization-model)
-- [Results/Findings](#results/findings)
+- [Results/Findings](#results-/-findings)
 - [Proposed Solution and Business Model](#proposed-solution-and-business-model)
 - [Limitations](#limitations)
 - [References](#references)
