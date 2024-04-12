@@ -13,7 +13,7 @@ Citi Bike Data Description
 ### Tools
 
 - Excel - Data Cleaning
-  - [Download here] (https://microsoft.com)
+  - [Download here](https://microsoft.com)
 - RStudio - Data Analysis (EDA, Descriptive Analysis, Predictive Analysis)
 
 ### Data Cleaning
@@ -22,3 +22,37 @@ In the initial data preparation phase, we performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing values.
 3. Data cleaning and formatting.
+
+### Exploratory Data Analysis
+
+EDA involved exploring the Citi Bike demand data to answer any key questions, such as:
+
+- Is demand higher during the daytime or evening?
+- Which variables influence demand?
+- How many bikes should we allocate to each station?
+- How many trips between stations every day?
+
+### Data Analysis
+
+Examples of code worked with
+
+
+```R
+# Descriptive stats: DemandTime
+
+citibike %>% group_by(DemandTime) %>% summarise(mean=mean(Demand), sd=sd(Demand))
+
+## Average demand is higher in the evenings than in the mornings.
+```
+
+
+
+
+
+
+
+
+
+
+
+
