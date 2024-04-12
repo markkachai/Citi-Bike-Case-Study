@@ -101,7 +101,7 @@ reg1 <- lm(Demand ~ DemandTime + StartStationName + EndStationName + DayOfWeek +
 summary(reg1)
 ```
 ---
-Here's an explanation of why each predictor/variable was chosen:
+Along with their statistical significance, here's an explanation of why each predictor/variable was chosen:
 
 DemandTime:
 
@@ -159,7 +159,7 @@ predict(reg1, data.frame(DemandTime = "evening", StartStationName = "Pershing Sq
 ```
 
 ### Optimization Model
-
+---
 The predictions for demand between our five chosen stations were then input into the parameters of our optimization model. Due to the high daytime/evening demand of our selected stations, we had to change the number of bikes from 1,000 to 4,000 to satisfy demand.
 
 Using this optimization model allowed us to find:
@@ -179,7 +179,10 @@ The analysis results are summarized as follows:
 ### Proposed Solution and Business Model
 ---
 Based on the analysis, we recommend the following actions:
-- 
+- Increase the initial allocation of bikes to 3,427.
+- Provide cashback or discount opportunities to riders/people close to stations to displace extra bikes to the nearest high-demand stations.
+- Allow commuters/students to earn extra money/reward for displacing bikes from one station to another suggested station (Ex. Earn a reward per 5 bikes displaced).
+- A designated app for Citi Bike could manage and display all the displacement suggestions, discounts, cashback, and student account information.
 
 ### Limitations
 ---
@@ -188,17 +191,3 @@ All null values were removed from the dataset, which only took out a small perce
 ### References
 ---
 1. [Stack Overflow](https://stackoverflow.com/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
