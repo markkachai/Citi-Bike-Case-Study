@@ -28,7 +28,6 @@ Citi Bike Demand Data: The primary dataset used for this analysis is the "citibi
 ### Tools
 ---
 - Excel - Data Cleaning
-  - [Download here](https://microsoft.com)
 - RStudio - Data Analysis (EDA, Descriptive Analysis, Predictive Analysis)
 
 ### Data Cleaning
